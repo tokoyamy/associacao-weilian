@@ -1,0 +1,65 @@
+.theme-switcher {
+  z-index: 1050; /* O z-index deve ser suficientemente alto para ficar acima de outros elementos da página */
+  cursor: pointer;
+}
+.theme-dark {
+  background-color: #333;
+  color: white;
+}
+
+.theme-dark .card {
+  background-color: #242424; /* Um cinza escuro para o fundo do cartão */
+  color: #fff; /* Texto branco para contraste */
+  border: none; /* Remover bordas se existirem */
+}
+
+.theme-dark .card a {
+  color: #fff; /* Cor do Bootstrap para links no tema claro, altere conforme necessário */
+}
+
+.theme-dark .btn-primary {
+  background-color: #EC3E3E; /* Fundo azul para botões primários */
+  border-color: #F47B7B; /* Borda para botões, caso queira um efeito de "hover" diferenciado */
+}
+
+/* Você também pode querer mudar a cor dos ícones ou imagens circulares, se necessário */
+.theme-dark .card-img-top {
+  border: 3px solid #fff; /* Adicionar borda branca ao redor da imagem circular */
+}
+
+/* Mudar o estilo do link 'View details' para se destacar no tema escuro */
+.theme-dark .card .btn-primary {
+  color: #fff;
+  background-color: #6c757d; /* Um cinza mais claro que o fundo do cartão */
+  border-color: #6c757d;
+}
+
+.theme-dark .card .btn-primary:hover {
+  background-color: #5a6268; /* Um cinza um pouco mais escuro para o hover */
+  border-color: #545b62;
+}
+
+.card, .card a, .card .btn-primary {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/*
+
+body.theme-dark .navbar,
+.theme-dark .navbar {
+  background-color: #343a40 !important; 
+  color: #ffffff !important;
+}
+
+body.theme-dark .navbar-brand,
+body.theme-dark .nav-link,
+.theme-dark .navbar-brand,
+.theme-dark .nav-link {
+  color: #ffffff !important; 
+}
+
+
+body.theme-dark .navbar-toggler-icon,
+.theme-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important; 
+}*/

@@ -1,0 +1,298 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./favicon.ico">
+  <meta name="description" content="Descrição do seu site">
+  <meta name="author" content="Matthew Felip">
+  <title>Ass. Wei Lian Kung fu</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body">
+    <div class="container-fluid">
+      <img class="navbar-brand" href="#" src="./image/logo-extend.png" alt="Wei Lian">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Modalidade</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Tai chi chuan</a></li>
+                <li><a class="dropdown-item" href="#">Qi Gong</a></li>
+                <li><a class="dropdown-item" href="#">Hung gar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Associado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo do corpo aqui -->
+  <!-- Início do Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="d-block w-100 carousel-background" style="height:500px; background-color:#343a40;"></div> 
+        <div class="carousel-caption text-start">
+          <h1>Tai Chi Chuan</h1>
+          <p class="opacity-75">É definido por movimentos lentos, às vezes acompanhados de explosões de força que, como o taijiquan, exigem total harmonia de movimento e respiração, concentração e coordenação de todo o corpo e mente em uma prática contínua.</p>
+          <p><a class="btn btn-lg btn-danger" href="#">Veja mais</a></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <div class="d-block w-100 carousel-background" style="height:500px; background-color:#343a40;"></div>
+        <div class="carousel-caption">
+          <h1>Hung Gar</h1>
+          <p>O Hung Gar caracteriza-se por utilizar técnicas, com uma base de pernas muito forte, destacando o uso das técnicas de mão ( palmas, garras e punhos ).</p>
+          <p><a class="btn btn-lg btn-danger" href="#">Veja mais</a></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <div class="d-block w-100 carousel-background" style="height:500px; background-color:#343a40;"></div> 
+        <div class="carousel-caption text-end">
+          <h1>Qi gong</h1>
+          <p>A arte de cultivar a energia para promover a saúde e a vitalidade.</p>
+          <p><a class="btn btn-lg btn-danger" href="#">Veja mais</a></p>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Fim do Carousel -->
+  <!-- modalidades -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Cartão Hung Gar -->
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="./image/hungar.png" alt="Hung Gar" style="width: 60px; height: 60px;">
+            <h5 class="card-title">Hung Gar</h5>
+            <p class="card-text">Baseia-se em técnicas de mãos e pernas fortes, incluindo palmas, garras e punhos.</p>
+            <a href="#" class="btn btn-outline-danger">Veja mais</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Cartão Tai Chi Chuan -->
+      <div class="col-sm-4">
+        <div class="card text-center bg-danger text-white">
+          <div class="card-body">
+            <img src="./image/taiji.png" alt="Tai Chi Chuan" style="width: 60px; height: 60px;">
+            <h5 class="card-title">Tai Chi Chuan</h5>
+            <p class="card-text">Prática de movimentos lentos e fortes, requer harmonia, concentração e coordenação.</p>
+            <a href="#" class="btn btn-outline-light">Veja mais</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Cartão Sanda -->
+      <div class="col-sm-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="./image/qigong.png" alt="Qi gong" style="width: 60px; height: 60px;">
+            <h5 class="card-title">Qi gong</h5>
+            <p class="card-text">Cultiva energia, melhora saúde física, mental, espiritual e equilíbrio.</p>
+            <a href="#" class="btn btn-outline-danger">Veja mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Descrição -->
+  <div class="container">
+
+  <hr class="featurette-divider">
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <h2>KUNG FU E TAI CHI CHUAN</h2>
+        <p>A Associação Wei Lian tem como objetivo direto e indireto de promover a cultura oriental chinesa e o ensino de esportes e da arte marcial Chinesa, Kung fu. [...]</p>
+        <!-- Mais conteúdo textual aqui -->
+      </div>
+      <div class="col-md-4">
+        <img src="./image/about.png" class="img-fluid" alt="Prática de Kung Fu">
+      </div>
+    </div>
+  </div>
+  <hr class="featurette-divider">
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <h2>Momentos Wushu no Instagram</h2>
+        <p>Veja nossos momentos no instagram</p>
+      </div>
+    </div>
+    <div class="row gx-4 gy-2">
+      <div class="col">
+        <img src="./image/materia.png" alt="Bauruenses se destacam em campeonato mundial de kung fu na China" class="img-fluid">
+      </div>
+      <div class="col">
+        <img src="./image/podcast.png" alt="Professor de kung fu" class="img-fluid">
+      </div>
+      <div class="col">
+        <img src="./image/everyone.png" alt="Exibição de Wushu" class="img-fluid">
+      </div>
+      <div class="col-12 text-end mt-3">
+        <a href="https://www.instagram.com/assweiliankungfu/" target="_blank" class="text-decoration-none">visite o instagram para ver mais »</a>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Reviews -->
+<div class="modal fade" id="modalSarahFerreira" tabindex="-1" aria-labelledby="modalSarahFerreiraLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalSarahFerreiraLabel">Sarah Ferreira</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://lh3.googleusercontent.com/a-/ALV-UjWRm0XN6Fdo39idgmRBqPEWn7H0xbwsZYnwF881PP7cTGja=w60-h60-p-rp-mo-br100" alt="Sarah Ferreira" class="rounded-circle mx-auto d-block" style="width: 100px; height: 100px; object-fit: cover;">
+        <p class="mt-3">"Super indicol! Melhor escola com pessoas que deixam seu treino super divertido e um professor que engaja e incentiva você a dar seu máximo."</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalLorraineAssis" tabindex="-1" aria-labelledby="modalLorraineAssisLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalLorraineAssisLabel">Lorraine Assis</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://lh3.googleusercontent.com/a-/ALV-UjUPmrX9WsPMkO1sI1555rCmcDzrHh25VqzugpmjA7-F6g=w60-h60-p-rp-mo-br100" alt="Lorraine Assis" class="rounded-circle mx-auto d-block" style="width: 100px; height: 100px; object-fit: cover;">
+        <p class="mt-3">"Lugar onde a arte marcial chinesa é ensinada sem discriminação com pessoas independente de raça, cor, gênero, idade, classe social e orientação sexual. O melhor lugar da região!"</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalCentroVacinas" tabindex="-1" aria-labelledby="modalCentroVacinasLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalCentroVacinasLabel">Centro de vacinas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="https://lh3.googleusercontent.com/a-/ALV-UjWqHBJOiue5NGZTX1tnBKEOiAUX8pSW7mDSo9pDr0G9rA=w60-h60-p-rp-mo-br100" alt="Centro de vacinas" class="rounded-circle mx-auto d-block" style="width: 100px; height: 100px; object-fit: cover;">
+        <p class="mt-3"></p>"Uma excelente escola. Além do cuidado e tato, mostra o quão importante é cuidar da sua saúde, através dos treinos dinâmicos e bem elaborados para que os treinos sejam prazerosos e divertidos."</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+  <!-- review -->
+  <hr class="featurette-divider">
+  <div class="container my-5">
+    <div class="row text-center g-4">
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <img src="https://lh3.googleusercontent.com/a-/ALV-UjWRm0XN6Fdo39idgmRBqPEWn7H0xbwsZYnwF881PP7cTGja=w60-h60-p-rp-mo-br100" alt="Sarah Ferreira" class="card-img-top rounded-circle mx-auto mt-4" style="width: 100px; height: 100px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Sarah Ferreira</h5>
+            <p class="card-text">"Super indicol! Melhor escola com pessoas que deixam seu treino super divertido e um professor que engaja e incentiva você a dar seu máximo."</p>
+            <br>
+            <a href="#modalSarahFerreira" class="btn btn-danger" data-bs-toggle="modal">View details »</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <img src="https://lh3.googleusercontent.com/a-/ALV-UjUPmrX9WsPMkO1sI1555rCmcDzrHh25VqzugpmjA7-F6g=w60-h60-p-rp-mo-br100" alt="Lorraine Assis" class="card-img-top rounded-circle mx-auto mt-4" style="width: 100px; height: 100px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Lorraine Assis</h5>
+            <p class="card-text">"Lugar onde a arte marcial chinesa é ensinada sem discriminação com pessoas independente de raça, cor, gênero, idade, classe social e orientação sexual. O melhor lugar da região!"</p>
+            <a href="#modalLorraineAssis" class="btn btn-danger" data-bs-toggle="modal">View details »</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <img src="https://lh3.googleusercontent.com/a-/ALV-UjWqHBJOiue5NGZTX1tnBKEOiAUX8pSW7mDSo9pDr0G9rA=w60-h60-p-rp-mo-br100" alt="Centro de vacinas" class="card-img-top rounded-circle mx-auto mt-4" style="width: 100px; height: 100px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">Centro de vacinas</h5>
+            <p class="card-text">"Uma excelente escola. Além do cuidado e tato, mostra o quão importante é cuidar da sua saúde, através dos treinos dinâmicos e bem elaborados para que os treinos sejam prazerosos e divertidos."</p>
+            <a href="#modalCentroVacinas" class="btn btn-danger" data-bs-toggle="modal">View details »</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Botão flutuante no canto inferior direito -->
+<div class="theme-switcher position-fixed bottom-0 end-0 m-3">
+  <div class="btn-group dropup">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-moon-stars-fill"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-dark">
+      <!-- A classe dropdown-menu-dark é do Bootstrap para temas escuros -->
+      <li><a class="dropdown-item" href="#" onclick="setTheme('light')"><i class="bi bi-brightness-high-fill"></i> Light</a></li>
+      <li><a class="dropdown-item" href="#" onclick="setTheme('dark')"><i class="bi bi-moon-fill"></i> Dark</a></li>
+      <li><a class="dropdown-item" href="#" onclick="setTheme('auto')"><i class="bi bi-brightness-alt-high-fill"></i> Auto</a></li>
+    </ul>
+  </div>
+</div>
+  <!-- Footer -->>
+  <hr class="featurette-divider">
+  <footer class="container">
+    <p class="float-end"><a href="#">Voltar ao topo</a></p>
+    <p>&copy; 2017–2024 Associação Wei lian de Kung fu Wushu, Inc. &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+  </footer>
+ 
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
